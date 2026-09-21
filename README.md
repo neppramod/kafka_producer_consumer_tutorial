@@ -2,7 +2,9 @@
 
 ## Installation
 
-Setup kafka using instructions from [here](https://kafka.apache.org/quickstart/). Make sure you have docker installed. After that get the kafka image.
+You can setup kafka using instructions from [here](https://kafka.apache.org/quickstart/) (for latest version). 
+
+Make sure you have docker installed. After that get the kafka image.
 
 `docker pull apache/kafka:4.3.1`
 
@@ -10,7 +12,7 @@ Run the image and bind it to port 9092
 
 `docker run -p 9092:9092 apache/kafka:4.3.1`
 
-Although, we don't need to install kafka (above command already did that), we need to be able to run 3 kafka commands (create a topic, and test producer and consumer, before writing code). Along with running above commands, download the kafka archive from above link, and make sure the commands are executable from your command line.
+Although, we don't need to install kafka (above command already did that), we need to be able to **run 3 kafka commands** (**create a topic**, and **test producer and consumer**, before writing code). Along with running above commands, download the kafka archive from above link, and make sure the commands are executable from your command line.
 
 ## Create a topic
 
